@@ -22,6 +22,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'rest_framework',
     'products',
 ]
 
@@ -60,7 +61,7 @@ WSGI_APPLICATION = 'config.wsgi.application'
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.postgresql",
-        "NAME": "neondb",
+        "NAME": "coyote",
         "USER": "jhoelito",
         "PASSWORD": "9516022Adam",
         "HOST": "ep-odd-wave-anzm513d.c-6.us-east-1.aws.neon.tech",

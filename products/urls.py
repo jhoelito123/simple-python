@@ -16,4 +16,10 @@ urlpatterns = [
         ProductDetailView.as_view(),
         name="product"
     ),
+
+    path(
+        "desactive/<int:pk>/",
+        DesactivateProductView.as_view(),
+        name="desactive-product"
+    ),
 ]
